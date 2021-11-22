@@ -1,0 +1,9 @@
+stages:
+  - test
+  - publish
+  - deploy
+
+test:
+  stage: test
+  script:
+    -echo 'this is a test'ß
