@@ -6,4 +6,8 @@ stages:
 test:
   stage: test
   script:
-    -echo 'this is a test'ß
+    echo 'this is a test'
+  only:
+    refs:
+      - tags
+      - main
